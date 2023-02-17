@@ -1,6 +1,6 @@
 const express=require('express')
 const app=express()
-const db=require('./models/connection')
+const db=require('./sql_connection/connection')
 const engine=require('express-handlebars').engine
 
 //Middleware
